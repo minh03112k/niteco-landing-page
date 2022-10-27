@@ -1,0 +1,170 @@
+@font-face {
+  font-family: Metric;
+  src: url("./font/MetricWeb-Regular.ttf");
+}
+
+body {
+  font-family: Metric;
+  margin: 0;
+  background-color: #21201e;
+  color: #ffffff;
+}
+
+.h1-like {
+  font-size: 48px;
+  font-weight: 300;
+}
+
+.text-light {
+  color: #ffffff;
+}
+
+.text-light-gray {
+  color: #a2a3bb;
+}
+
+.none-text-decoration {
+  text-decoration: none;
+}
+
+.text-18 {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.text-20 {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.text-24 {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.landing-page {
+  overflow-x: hidden;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  background-color: #1a1a1a;
+  padding: 1rem;
+  width: 100%;
+}
+
+.container {
+  /* padding-right: 15px;
+  padding-left: 15px; */
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+.header-information {
+  display: flex;
+  align-items: center;
+}
+
+.header-information--items {
+  display: flex;
+  list-style-type: none;
+  padding: 0px;
+}
+
+.header-information--item {
+  padding-inline-start: 40px;
+  color: #c3c4c7;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.banner {
+  display: flex;
+  justify-content: start;
+  background-image: url(./images/herohob.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 5rem 10rem;
+  margin-top: 84px;
+}
+
+.banner-hobs {
+  width: 40%;
+  background: #000000;
+  padding: 2rem;
+  color: #dec117;
+}
+
+@media screen and (max-width: 460px) {
+  .banner-hobs {
+    /* padding: 2rem; */
+    width: 100%;
+  }
+}
+
+.btn {
+  padding: 8px 32px;
+  color: #ffffff;
+  background: #dec117;
+  border: none;
+}
+
+.hobs {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hobs-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
+  /* background-color: #2196f3; */
+  padding: 10px;
+}
+
+.hobs-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hobs-item--img {
+  width: 100%;
+  max-width: 100%;
+  height: 50%;
+  object-fit: contain;
+  object-position: center;
+}
