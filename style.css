@@ -155,6 +155,10 @@ body {
   padding: 10px;
 }
 
+.hobs-item:last-child > div > .hobs-item--img {
+  object-fit: cover;
+}
+
 .hobs-item {
   display: flex;
   flex-direction: column;
