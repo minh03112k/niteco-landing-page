@@ -60,6 +60,7 @@ body {
 
 .landing-page {
   overflow-x: hidden;
+  padding: 1rem;
 }
 
 .header {
@@ -167,4 +168,10 @@ body {
   height: 50%;
   object-fit: contain;
   object-position: center;
+}
+
+.footer {
+  border-top: 1px solid #2d2c2a;
+  margin-top: 8rem;
+  color: #737373;
 }
