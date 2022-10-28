@@ -168,3 +168,10 @@ body {
   object-fit: contain;
   object-position: center;
 }
+
+.footer {
+  border-top: 1px solid #2d2c2a;
+  margin-top: 8rem;
+  color: #737373;
+  padding-bottom: 2rem;
+}
